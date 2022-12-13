@@ -10,12 +10,13 @@ void jack_baucer(void)
 	{
 		for (minute = 0; minute <= 59; minute++)
 		{
-			putchar ((hour / 10) + '0');
-			putchar ((hour % 10) + '0');
-			putchar (':');
-			putchar ((minute / 10) + '0');
-			putchar ((minute % 10) + '0');
-			putchar ('\n');
+			_putchar ((hour / 10) + '0');
+			_putchar ((hour % 10) + '0');
+			-putchar (':');
+
+			_putchar ((minute / 10) + '0');
+			_putchar ((minute % 10) + '0');
+			_putchar ('\n');
 		}
 	}
 }
