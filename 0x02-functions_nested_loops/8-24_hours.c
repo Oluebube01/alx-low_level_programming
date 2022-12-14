@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * jack_baucer - prints every minute of the day
+ * jack_bauer - prints every minute of the day
  */
-void jack_baucer(void)
+void jack_bauer(void)
 {
 	int hour, minute;
 
